@@ -1,0 +1,61 @@
+ .demos {
+  background-color: var(--bg-color);
+  padding: 30px;
+}
+
+/* General styles for the video container */
+.video-wrapper {
+  width: 100%;
+  max-width: 800px; /* Default max width */
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Styling the video element (iframe) */
+.video-element {
+  width: 100%;
+  height: 450px; /* Default height */
+  border: none;
+  border-radius: 8px;
+  
+}
+.video-title {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .video-element {
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-wrapper {
+    max-width: 100%; 
+    padding: 5px;
+  }
+
+  .video-element {
+    height: 300px; /* Adjust height for mobile */
+  }
+
+  .video-title {
+    font-size: 1.2rem; /* Slightly smaller title on mobile */
+  }
+}
+
+/* For very small devices (max-width 480px) */
+@media (max-width: 480px) {
+  .video-element {
+    height: 200px; /* Smaller height for very small screens */
+  }
+
+  .video-title {
+    font-size: 1rem; /* Smaller title */
+  }
+}

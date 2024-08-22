@@ -1,0 +1,87 @@
+.testimonies {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding-top: 88px !important;
+}
+
+.swiper {
+  width: 100%;
+  height: auto; 
+}
+.speaker-note{
+  font-size: 2rem;
+  color: #00fffc;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.test-pictures {
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-bottom: 2rem; 
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  color: white;
+  font-style: italic;
+}
+
+.stars {
+  color: gold;
+}
+
+.description {
+  font-size: 1rem;
+  color: white;
+  margin-top: 0.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.testimonies[data-lightmode="true"] p{
+  color: black;
+}
+.testimonies[data-lightmode="true"] h5{
+  color: black;
+}
+.testimonies[data-lightmode="true"] h5{
+  color: black;
+}
+.testimonies[data-lightmode="true"] .speaker-note{
+  font-size: 2rem;
+  color: #B1C9EF;
+}
+/* .testimonies[data-lightmode="true"] {
+
+} */
+
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 100px;
+    height: 100px;
+  }
+}

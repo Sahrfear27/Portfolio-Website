@@ -1,0 +1,80 @@
+
+.hero{
+    padding-top: 80px;
+    background-color: var(--bg-color);
+    padding: 2rem 0;
+}
+.hero .display-4 {
+  font-size: 5rem;
+}
+.hero .fs-3 {
+  font-size: 2rem !important; 
+  text-shadow: 3px 3px 5px #000000;
+  font-weight: bolder !important;
+}
+
+.top-header{
+    color:var(--h2-color);
+    font-family: 'Solway', serif;
+    letter-spacing: 1px;
+    filter: drop-shadow(4px 3px 2px var(--h2-color));
+    animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
+}
+
+  
+.fs-5 {
+  font-size: 3rem;
+  font-weight: 600; 
+}
+
+.js-developer {
+    color: #f39c12; 
+    font-weight:lighter;
+    font-family: monospace;
+  }
+  
+  .fullstack-developer {
+    color: #27ae60; /* Green */
+    font-style: italic;
+    font-weight:lighter;
+    font-family: monospace;
+  }
+  
+  .mobile-app-developer {
+    color: #e74c3c; /* Red */
+    font-weight:lighter;
+    font-family: monospace;
+  }
+
+
+  .hero[data-lightmode="true"] .display-4{
+    color: #294D61;
+    text-shadow: 1px 3px 8px #ffff !important
+  }
+  
+  .hero[data-lightmode="true"] p {
+    color: black; 
+  }
+  .hero[data-lightmode="true"]  {
+   background-image: url("../../Images/lighModeBg.jpg");
+   background-size: cover;
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-attachment: fixed; 
+  }
+  
+  @media (max-width: 1024px) {
+  .hero-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center !important;
+  }
+    }

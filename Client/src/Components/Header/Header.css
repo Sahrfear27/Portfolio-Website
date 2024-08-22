@@ -1,0 +1,25 @@
+.nav-link-wrapper {
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--text-color);
+  cursor: pointer;
+  }
+
+
+  .nav-link-wrapper a {
+    color: var(--nav-link-color);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+
+.page-container {
+  background-color:#2E363C;
+  padding: 0;
+}
+
+
+.page-container[data-lightmode="true"] {
+  background-color:  #c2dde6;
+}
+

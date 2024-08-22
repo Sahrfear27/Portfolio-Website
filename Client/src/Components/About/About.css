@@ -1,0 +1,205 @@
+
+   .about {
+    padding-top: 88px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+  }
+  .resume a {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .resume {
+    padding: 1rem 0;
+    font-size: small;
+    text-align: center;
+  }
+  
+  
+  .resume a:hover {
+    background-color: #0056b3;
+  }
+ h5 {
+    font-size: var(--h5-font);
+    font-weight: 700;
+    color: #A6BBCC;
+  } 
+  .about-me > div>p{
+    font-family: var(--p--font-family);
+    font-size: var(--p-font);
+    
+  }
+.tech-item {
+text-align: center;
+}
+.tech-item >p{
+  font-size:.8rem;
+}
+  .html-icon {
+    font-size: 2.5rem;
+    color: #f39c12;
+  }
+  
+  .css-icon {
+    font-size: 2.5rem;
+    color: #2862E9;
+  }
+  
+  .boot-icon {
+    font-size: 2.5rem;
+    color: #7210EC;
+  }
+  
+  .javaScript-icon {
+    font-size: 2.5rem;
+    color: #F7DF38;
+  }
+  
+  .typeScript-icon {
+    font-size: 2.5rem;
+    color: #0B7CD0;
+  }
+  
+  .node-icon {
+    font-size: 2.5rem;
+    color: #7BB26A;
+  }
+  
+  .express-icon {
+    font-size: 2.5rem;
+    color: #00B7A0;
+  }
+  
+  .mongodb-icon {
+    font-size: 2.5rem;
+    color: #1EEE69;
+  }
+  
+  .sql-icon {
+    font-size: 2.5rem;
+    color: #3A6C94;
+  }
+  
+  .react-icon {
+    font-size: 2.5rem;
+    color: #54BFD6;
+  }
+  
+  .react-native-icon {
+    font-size: 2.5rem;
+    color: #71D6EC;
+  }
+  
+  .angular-icon {
+    font-size: 2.5rem;
+    color: #D95FFF;
+  }
+  
+  .git-icon {
+    font-size: 2.5rem;
+   color: white;
+  }
+  
+  .tail-icon {
+    font-size: 2.5rem;
+    color: #38BDF9;
+  }
+  
+
+  @media (max-width: 1200px) {
+    .tech-item {
+      max-width: 130px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .tech-item {
+      max-width: 120px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tech-item {
+      max-width: 100px;
+    }
+    .html-icon, .css-icon, .boot-icon,
+    .javaScript-icon, .typeScript-icon,
+    .node-icon, .express-icon,
+    .mongodb-icon, .sql-icon,
+    .react-icon, .react-native-icon,
+    .angular-icon, .git-icon, .tail-icon {
+      font-size: 2.5rem;
+      
+    }
+    .about_hero h5, .tech h5{
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tech-item {
+      max-width: 90px;
+    }
+  
+    .html-icon, .css-icon, .boot-icon,
+    .javaScript-icon, .typeScript-icon,
+    .node-icon, .express-icon,
+    .mongodb-icon, .sql-icon,
+    .react-icon, .react-native-icon,
+    .angular-icon, .git-icon, .tail-icon {
+      font-size: 2.5rem;
+      /* font-size: 1rem; */
+
+    }
+  
+    .about_hero h5, .tech h5{
+      font-size: 0.5rem;
+    }
+  }
+  
+
+
+  
+  @media (max-width: 510px) {
+    .tech-item {
+      max-width: 90px;
+    }
+  
+    .html-icon, .css-icon, .boot-icon,
+    .javaScript-icon, .typeScript-icon,
+    .node-icon, .express-icon,
+    .mongodb-icon, .sql-icon,
+    .react-icon, .react-native-icon,
+    .angular-icon, .git-icon, .tail-icon {
+      font-size: 1.4rem;
+
+    }
+  
+    .about_hero h5, .tech h5{
+      font-size: 0.5rem;
+    }
+  }
+  @media (max-width: 1024px) {
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .about-inner-Card{
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  }
+
+
+  
+
+
+
+
+
+
