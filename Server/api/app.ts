@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from "express";
-import { messaage_route } from "./router";
-import { ErrorWithStatus } from "./error";
+import { messaage_route } from "../router";
+import { ErrorWithStatus } from "../error";
 import cors from "cors";
 import "dotenv/config";
 
@@ -30,3 +30,4 @@ app.use((err: unknown, req: Request, res: Response, next: NextFunction) => {
 app.listen(app.get("port"), () => {
   console.log("Listining to port " + " " + app.get("port"));
 });
+module.exports = app;
