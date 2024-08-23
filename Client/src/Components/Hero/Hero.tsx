@@ -8,7 +8,6 @@ import TheameContex from "../Theame/Theame";
 type Props = {
   id: string;
 };
-
 export default function Hero(props: Props) {
   const { lightMode } = useContext(TheameContex);
   const { id } = props;
@@ -64,7 +63,7 @@ export default function Hero(props: Props) {
               src={sahrfear}
               alt="Hero"
               className="img-fluid"
-              style={{ maxWidth: "300px", height: "auto" }}
+              style={{ maxWidth: "400px", height: "auto" }}
             />
           </div>
         </div>

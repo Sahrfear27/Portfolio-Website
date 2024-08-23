@@ -12,7 +12,10 @@
   text-shadow: 3px 3px 5px #000000;
   font-weight: bolder !important;
 }
-
+.img-fluid{
+  transform: scaleX(-1) !important;
+  opacity :1
+}
 .top-header{
     color:var(--h2-color);
     font-family: 'Solway', serif;
