@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import "./Videos.css";
 import TheameContex from "../Theame/Theame";
+import { useContext } from "react";
+import "./Videos.css";
 
 // Array of video objects
 const videos = [

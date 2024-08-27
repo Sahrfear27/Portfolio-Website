@@ -12,7 +12,6 @@
     font-size: 1rem;
     margin: 0;
     padding: 0;
-    /* background-color: var(--bg-color); */
     transition: background-color 0.3s, color 0.3s;
     color: var(--text-color);
     overflow-x: hidden;
@@ -28,7 +27,6 @@
     --p-font: 1rem;
     --bg-header: #032030;
     --p--font-family:monospace;
-    /* --nav-link-color: red; */
   }
 
   
@@ -43,8 +41,7 @@
     --bg-color: var(--bg-color);
     --text-color: var(--text-color);
     --bg-color:#273A46
-    /* --header-bg: var(--header-bg); */
-    /* --bg-header: var(--bg-header); */
+ 
   }
   
   

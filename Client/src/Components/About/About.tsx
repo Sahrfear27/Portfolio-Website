@@ -1,21 +1,22 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "./About.css";
+import { TbBrandJavascript } from "react-icons/tb";
+import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandReactNative } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+
 import { TbBrandHtml5 } from "react-icons/tb";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa6";
-import { TbBrandJavascript } from "react-icons/tb";
-import { BiLogoTypescript } from "react-icons/bi";
+import { FaAngular } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
-import { TbBrandReactNative } from "react-icons/tb";
-import { FaAngular } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import "bootstrap/dist/css/bootstrap.css";
 import { FaDownload } from "react-icons/fa6";
+import "./About.css";
+
 type Props = {
   id?: string;
 };

@@ -1,12 +1,11 @@
-import React from "react";
-import "./Project.css";
+import rest from "../../Images/educational.jpg";
+import library from "../../Images/library.jpg";
+import amazon from "../../Images/amazon.jpeg";
+import weather from "../../Images/weather.png";
+import music from "../../Images/music.jpg";
 import { FaGithub } from "react-icons/fa";
 import med from "../../Images/drug.jpg";
-import music from "../../Images/music.jpg";
-import amazon from "../../Images/amazon.jpeg";
-import library from "../../Images/library.jpg";
-import rest from "../../Images/educational.jpg";
-import weather from "../../Images/weather.png";
+import "./Project.css";
 
 type Props = {
   id?: string;

@@ -1,9 +1,9 @@
 import { useContext, useEffect, useRef } from "react";
-import Typed from "typed.js";
-import "bootstrap/dist/css/bootstrap.css";
-import "./Hero.css";
 import sahrfear from "../../Images/sahrfear.png";
 import TheameContex from "../Theame/Theame";
+import "bootstrap/dist/css/bootstrap.css";
+import Typed from "typed.js";
+import "./Hero.css";
 
 type Props = {
   id: string;
@@ -52,19 +52,14 @@ export default function Hero(props: Props) {
     >
       <div className="container">
         <div className="row align-items-center hero-sec">
-          <div className="col-12 col-md-8 text-center text-md-start  mb-md-0">
+          <div className="col-12 col-md-4 text-center text-md-end">
+            <img src={sahrfear} alt="Hero" className="img-fluid hero-img" />
+          </div>
+          <div className="col-12 col-md-8 text-center text-md-start mb-md-0">
             <h1 className="display-4 fw-bold top-header">I'm Sahrfear</h1>
             <h2 className="fs-3 fw-semibold">
               <span ref={el} />
             </h2>
-          </div>
-          <div className="col-12 col-md-4 text-center text-md-end">
-            <img
-              src={sahrfear}
-              alt="Hero"
-              className="img-fluid"
-              style={{ maxWidth: "400px", height: "auto" }}
-            />
           </div>
         </div>
       </div>

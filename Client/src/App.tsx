@@ -1,24 +1,22 @@
-import About from "./Components/About/About";
-import Header from "./Components/Header/Header";
+import Testimonies from "./Components/Testimonies/Testimonies";
+import Education from "./Components/Education/Education";
 import Service from "./Components/myServices/Service";
 import Projects from "./Components/Projects/Projects";
-import Education from "./Components/Education/Education";
-import Testimonies from "./Components/Testimonies/Testimonies";
+import TheameContex from "./Components/Theame/Theame";
+import Vidoes from "./Components/ProjectVideos/Videos";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import { useEffect, useState } from "react";
+import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import "./App.css";
-import { useEffect, useState } from "react";
-import TheameContex from "./Components/Theame/Theame";
-import Vidoes from "./Components/ProjectVideos/Videos";
-import PotalExample from "./Components/TESTComp/PotalExample";
+
 export default function App() {
   const [lightMode, setLightMode] = useState(false);
-  const displayName = () => {
-    console.log("Sahrfear");
-  };
+
   useEffect(() => {
     AOS.init({
       duration: 1000,

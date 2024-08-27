@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
-import "./Service.css";
 import TheameContex from "../Theame/Theame";
-import { BsRocketTakeoff } from "react-icons/bs";
+import { useContext } from "react";
+import "./Service.css";
 
 type Competence = {
   title: string;

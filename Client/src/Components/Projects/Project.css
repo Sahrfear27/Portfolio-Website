@@ -1,7 +1,6 @@
 .project {
   padding-top: 80px;
   background-color: var(--bg-color);
-  
   color: var(--text-color);
 }
 
@@ -80,6 +79,6 @@ text-align: center;
 
 @media (max-width: 576px) {
   .project-card {
-    height: 350px; /* Adjust height for smaller screens */
+    height: 350px; 
   }
 }

@@ -1,14 +1,16 @@
-import React, { useContext } from "react";
+import { Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FaCommentDots } from "react-icons/fa6";
 import { RiStarSFill } from "react-icons/ri";
-import { MdOutlineSpeakerNotes } from "react-icons/md";
-import "swiper/css";
+import { useContext } from "react";
+
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+
 import "./Testimonies.css";
-import asaad from "../../Images/asaad.jpeg";
 import Satbir from "../../Images/Satbir Singh Negi.jpeg";
+import asaad from "../../Images/asaad.jpeg";
 import thao from "../../Images/thao.jpg";
 import sagar from "../../Images/sagar.jpg";
 import TheameContex from "../Theame/Theame";
@@ -25,10 +27,10 @@ export default function Testimonies(props: Props) {
       className="testimonies vh-100 py-5"
       data-lightmode={lightMode ? "true" : "false"}
     >
-      <h5 className="speaker-note text-center mb-4">
-        <MdOutlineSpeakerNotes />
-        <MdOutlineSpeakerNotes />
-      </h5>
+      <h4 className="speaker-note text-center mb-4">
+        <FaCommentDots />
+        <FaCommentDots />
+      </h4>
       <Swiper
         pagination={{ dynamicBullets: true }}
         autoplay={{

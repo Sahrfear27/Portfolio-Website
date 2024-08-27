@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import "./Education.css";
 import TheameContex from "../Theame/Theame";
+import { useContext } from "react";
+import "./Education.css";
 
 type Props = {
   id?: string;

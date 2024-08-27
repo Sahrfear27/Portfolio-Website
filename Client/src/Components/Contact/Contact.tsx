@@ -1,10 +1,11 @@
-import React, { ChangeEvent, FormEvent, useContext, useState } from "react";
-import { IoLocationOutline } from "react-icons/io5";
-import { FiPhone } from "react-icons/fi";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { ChangeEvent, FormEvent, useContext, useState } from "react";
 import formdataService from "../../APIS/Service/formdata.service";
-import "./Contact.css";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 import TheameContex from "../Theame/Theame";
+import { FiPhone } from "react-icons/fi";
+import "./Contact.css";
+
 type Props = {
   id: string;
 };

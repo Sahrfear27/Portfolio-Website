@@ -1,12 +1,12 @@
-import React, { useContext, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
+import { useContext, useState } from "react";
+import TheameContex from "../Theame/Theame";
 import { createPortal } from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
+// import logo from "../../Images/file.png";
 import { Link } from "react-scroll";
 
-import logo from "../../Images/file.png";
-import TheameContex from "../Theame/Theame";
 import ModalWindow from "./Modal";
 
 export default function Header() {
@@ -35,16 +35,7 @@ export default function Header() {
       data-lightmode={lightMode ? "true" : "false"}
     >
       <Container>
-        <Navbar.Brand>
-          <img
-            src={logo}
-            alt="Logo"
-            style={{
-              width: "60px",
-              height: "auto",
-            }}
-          />
-        </Navbar.Brand>
+        <Navbar.Brand className="nav-brand"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

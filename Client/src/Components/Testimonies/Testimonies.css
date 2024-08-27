@@ -22,7 +22,7 @@
   border: none;
   overflow: hidden;
   text-align: center;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
 }
 
 .card-body {
@@ -68,16 +68,14 @@
 .testimonies[data-lightmode="true"] h5{
   color: black;
 }
-.testimonies[data-lightmode="true"] h5{
-  color: black;
+.testimonies[data-lightmode="false"] h5{
+  color: #ffff;
 }
 .testimonies[data-lightmode="true"] .speaker-note{
   font-size: 2rem;
   color: #B1C9EF;
 }
-/* .testimonies[data-lightmode="true"] {
 
-} */
 
 @media (max-width: 768px) {
   .img-fluid {

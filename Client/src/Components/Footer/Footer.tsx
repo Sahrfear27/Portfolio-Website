@@ -1,12 +1,11 @@
-import "./Footer.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-scroll";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoIosArrowUp } from "react-icons/io";
-
 import { FaSquareInstagram } from "react-icons/fa6";
-import { useContext } from "react";
 import TheameContex from "../Theame/Theame";
+import { IoIosArrowUp } from "react-icons/io";
+import { Container } from "react-bootstrap";
+import { Link } from "react-scroll";
+import { useContext } from "react";
+import "./Footer.css";
 
 type Props = {
   id: string;

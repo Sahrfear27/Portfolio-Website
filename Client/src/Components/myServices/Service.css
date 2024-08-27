@@ -30,7 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #ddd; */
   border: 3px groove #00fffc ;
   border-radius: 8px;
 }
@@ -58,17 +57,15 @@
 
 .service-card.light-mode .service-card-front {
   background-color: #c2dde6; 
-  /* color: whitesmoke; */
 }
 
 .service-card.light-mode .service-card-back {
-  background-color: #F3F3F3; /* Light transparent background for light mode */
+  background-color: #F3F3F3; 
   color: black;
   font-family: Verdana, sans-serif;
 }
 .service-card.light-mode .service-card-front {
-  background-color: #CED5D6; /* Light transparent background for light mode */
-
+  background-color: #CED5D6; 
 }
 .service-card.light-mode .s-title {
   color: #212228;
@@ -77,12 +74,12 @@
 
 
 .service-card.dark-mode .service-card-front {
-  background-color: #294D61; /* Bright green for dark mode */
+  background-color: #294D61; 
   color: #ffffff;
 }
 
 .service-card.dark-mode .service-card-back {
-  background-color:#6DA5C0/* Dark transparent background for dark mode */
+  background-color:#6DA5C0;
 }
 
 
