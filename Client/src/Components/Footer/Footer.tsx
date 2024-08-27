@@ -28,16 +28,19 @@ export default function Footer(props: Props) {
     >
       <Container fluid className="text-center text-white p-3">
         <div className="social-links d-flex justify-content-center mb-3">
-          <a href="#" className="social-icon mx-2 ">
+          <a
+            href="https://www.twitter.com/SahrfearM"
+            className="social-icon mx-2 "
+          >
             <FaTwitter />
           </a>
-          <a href="#" className="social-icon mx-2 ">
+          <a
+            href="https://www.instagram.com/alvesmccarthy/?utm_source=qr"
+            className="social-icon mx-2 "
+          >
             <FaSquareInstagram />
           </a>
-          <a
-            href="https://github.com/Sahrfear27/My-Projects"
-            className="social-icon mx-2"
-          >
+          <a href="https://github.com/Sahrfear27" className="social-icon mx-2">
             <FaGithub />
           </a>
           <a

@@ -11,7 +11,6 @@ import "swiper/css";
 import "./Testimonies.css";
 import Satbir from "../../Images/Satbir Singh Negi.jpeg";
 import asaad from "../../Images/asaad.jpeg";
-import thao from "../../Images/thao.jpg";
 import sagar from "../../Images/sagar.jpg";
 import TheameContex from "../Theame/Theame";
 type Props = {
@@ -48,7 +47,8 @@ export default function Testimonies(props: Props) {
               <p className="card-text">Program Director at Maharishi</p>
 
               <p className="description">
-                Committed and eager to learn new technologies.
+                Sahrfear's eagerness to learn, motivation, and ability to grow
+                from mistakes make him a standout student.
               </p>
               <div className="stars mb-3">
                 <RiStarSFill />
@@ -64,11 +64,13 @@ export default function Testimonies(props: Props) {
           <div className="card  border-0">
             <div className="card-body text-center">
               <img src={Satbir} alt="testimonial" className="test-pictures" />
-              <h5 className="card-title">Dr. Satbir Singh Negi</h5>
-              <p className="card-text"> DevOps Project Manager</p>
+              <h5 className="card-title">Satbir Negi</h5>
+              <p className="card-text">Instructure at MIU</p>
 
               <p className="description">
-                Committed and eager to learn new technologies.
+                Sahrfear is confident and proactive, eagerly volunteering for
+                roles and responsibilities. He views challenges as opportunities
+                for growth.
               </p>
               <div className="stars mb-3">
                 <RiStarSFill />
@@ -80,34 +82,16 @@ export default function Testimonies(props: Props) {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="card  border-0">
-            <div className="card-body text-center">
-              <img src={thao} alt="testimonial" className="test-pictures" />
-              <h5 className="card-title">Dr. Satbir Singh Negi</h5>
-              <p className="card-text">DevOps Project Manager</p>
 
-              <p className="description">
-                Committed and eager to learn new technologies.
-              </p>
-              <div className="stars mb-3">
-                <RiStarSFill />
-                <RiStarSFill />
-                <RiStarSFill />
-                <RiStarSFill />
-                <RiStarSFill />
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
         <SwiperSlide>
           <div className="card  border-0">
             <div className="card-body text-center">
               <img src={sagar} alt="testimonial" className="test-pictures" />
-              <h5 className="card-title">Dr. Satbir Singh Negi</h5>
-              <p className="card-text">DevOps Project Manager</p>
+              <h5 className="card-title">Sagar Chauhan</h5>
+              <p className="card-text">Full-Stack Developer</p>
               <p className="description">
-                Committed and eager to learn new technologies.
+                Sahrfear's passion for coding is truly inspiring. It's a
+                pleasure working together!
               </p>
               <div className="stars mb-3">
                 <RiStarSFill />
