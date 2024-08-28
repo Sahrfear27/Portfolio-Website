@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext } from "react";
+import { createContext } from "react";
 
 // Create a context for theme
 type ContexType = {
