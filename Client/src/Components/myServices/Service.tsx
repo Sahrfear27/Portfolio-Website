@@ -16,7 +16,7 @@ const competences: Competence[] = [
   {
     title: "Back-End Development",
     description:
-      "Creating server-side architecture with Node.js and Express for secure RESTful APIs. Ensuring seamless communication between front-end and back-end.",
+      "Built secure RESTful APIs with Node.js and Express, enabling seamless front-end and back-end communication.",
   },
   {
     title: "Mobile Application",

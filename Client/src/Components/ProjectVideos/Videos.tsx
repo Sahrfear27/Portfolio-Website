@@ -29,7 +29,7 @@ export default function Videos() {
       className="demos container-fluid"
       data-lightmode={lightMode ? "true" : "false"}
     >
-      <h4 style={{ textAlign: "center" }}>Demos</h4>
+      <h4 className="video-header">Videos</h4>
       <div className="row">
         {videos.map((video, index) => (
           <div

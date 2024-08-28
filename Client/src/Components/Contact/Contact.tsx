@@ -95,9 +95,7 @@ export default function Contact(props: Props) {
                       >
                         <IoLocationOutline />
                       </a>
-                      <span className="location">
-                        1678 San Ramon Way, San Jose, CA
-                      </span>
+                      <span className="location">San Jose, CA</span>
                     </p>
                   </div>
                   <div>
