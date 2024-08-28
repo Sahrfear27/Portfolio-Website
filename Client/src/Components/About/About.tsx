@@ -17,6 +17,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { FaDownload } from "react-icons/fa6";
 import "./About.css";
 
+import resume from "../../Images/Sahrfear_Macarthy_resume.pdf";
 type Props = {
   id?: string;
 };
@@ -41,11 +42,7 @@ export default function About(props: Props) {
             </div>
 
             <div className="resume">
-              <a
-                href="assets/Sahrfear_Macarthy_resume.pdf"
-                download="resume.pdf"
-                id="download"
-              >
+              <a href={resume} download="resume.pdf" id="download">
                 Get Resume <FaDownload />
               </a>
             </div>
