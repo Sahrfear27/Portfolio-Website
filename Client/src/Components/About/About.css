@@ -107,6 +107,11 @@ text-align: center;
     font-size: 2.5rem;
     color: #38BDF9;
   }
+  .python-icon {
+    font-size: 2.5rem;
+    color: linear-gradient(45deg, #306998, #FFD43B); /* Gradient from Python Blue to Yellow */
+
+  }
   
 
   @media (max-width: 1200px) {
@@ -130,7 +135,7 @@ text-align: center;
     .node-icon, .express-icon,
     .mongodb-icon, .sql-icon,
     .react-icon, .react-native-icon,
-    .angular-icon, .git-icon, .tail-icon {
+    .angular-icon, .git-icon, .tail-icon ,.python-icon{
       font-size: 2.5rem;
       
     }

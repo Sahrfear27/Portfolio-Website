@@ -13,6 +13,7 @@ import { FaNode } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.css";
 import { FaDownload } from "react-icons/fa6";
 import "./About.css";
@@ -113,6 +114,10 @@ export default function About(props: Props) {
                   <div className="tech-item">
                     <SiMongodb className="mongodb-icon" />
                     <p>MongoDB</p>
+                  </div>
+                  <div className="tech-item ">
+                    <FaPython className="python-icon" />
+                    <p>Python</p>
                   </div>
                 </div>
               </div>
