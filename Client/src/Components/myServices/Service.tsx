@@ -50,7 +50,7 @@ export default function Service(props: Props) {
   return (
     <section
       id={id}
-      className={`services-mf pt-5 ${lightMode ? "light-mode" : "dark-mode"}`}
+      className={`serviceMainCard  ${lightMode ? "light-mode" : "dark-mode"}`}
     >
       <div className="container service-card-main">
         <h5 className="text-center mb-4">My Core Competencies</h5>
