@@ -58,6 +58,13 @@ export default function Education(props: Props) {
                   Onto Innovation Company, CA, United States
                 </div>
               </div>
+              <div className="timeline-item">
+                <h3>Associate Test Engineer Level II</h3>
+                <time dateTime="2021/2022">2024 &ndash; Present</time>
+                <div className="location">
+                  Onto Innovation Company, CA, United States
+                </div>
+              </div>
             </div>
           </div>
         </div>
