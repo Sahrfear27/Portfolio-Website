@@ -31,3 +31,5 @@ app.listen(app.get("port"), () => {
   console.log("Listining to port " + " " + app.get("port"));
 });
 module.exports = app;
+
+export default app;

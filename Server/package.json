@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "app": "nodemon app.ts"
+    "app": "nodemon app.ts",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
