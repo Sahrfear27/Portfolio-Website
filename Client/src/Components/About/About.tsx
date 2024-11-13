@@ -18,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { FaDownload } from "react-icons/fa6";
 import "./About.css";
 
-import resume from "../../Images/Sahrfear_Macarthy_resume.pdf";
+import resume from "../../Images/Sahrfear_Macarthy.pdf";
 type Props = {
   id?: string;
 };
